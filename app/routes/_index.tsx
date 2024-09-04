@@ -11,7 +11,7 @@ const JoinRoomOptionsSchema = z.object({
   room: z
     .string()
     .regex(/^[a-zA-Z0-9_-]+$/)
-    .min(2)
+    .min(1)
     .max(32),
   username: z.string(),
 })

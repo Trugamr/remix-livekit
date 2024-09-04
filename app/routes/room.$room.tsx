@@ -34,7 +34,7 @@ export default function Room() {
   return (
     <LiveKitRoom
       video={true}
-      audio={true}
+      audio={false}
       token={loaderData.token}
       serverUrl={loaderData.serverUrl}
       // Use the default LiveKit theme for nice styles.
