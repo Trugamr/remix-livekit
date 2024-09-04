@@ -1,0 +1,7 @@
+name: remix-livekit
+
+services:
+  livekit-server:
+    image: livekit/livekit-server
+    command: --dev
+    network_mode: host
